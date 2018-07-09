@@ -17,7 +17,7 @@ From the project directory, get the toolchain file:
 Then, we use CMAKE_TOOLCHAIN_FILE since we are cross compiling
 
 	$ cd build
-	$ cmake -G "Unix Makefiles" -DCMAKE_TOOLCHAIN_FILE ../cmake-avr/generic-gcc-avr.cmake -DWITH_MCU=OFF ..
+	$ cmake -G "Unix Makefiles" -DCMAKE_TOOLCHAIN_FILE=../cmake-avr/generic-gcc-avr.cmake -DWITH_MCU=OFF ..
 	$ make
 	$ make
 	
